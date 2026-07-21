@@ -1,1 +1,1 @@
-
+Authentication testing screenshots.

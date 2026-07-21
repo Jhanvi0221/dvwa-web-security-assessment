@@ -1,1 +1,1 @@
-
+Session management testing screenshots.

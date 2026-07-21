@@ -1,1 +1,2 @@
 
+Automated vulnerability scanning screenshots.

@@ -16,23 +16,25 @@ No production systems or unauthorized targets were tested.
 
 ---
 
-# Target
+## Target
 
-Damn Vulnerable Web Application (DVWA)
+**Damn Vulnerable Web Application (DVWA)**
 
-Environment:
+### Environment
 
 - Kali Linux
 - Docker
 - Localhost
 
-Target URL
+### Target URL
 
+```
 http://127.0.0.1:9090
+```
 
 ---
 
-# Testing Methodology
+## Testing Methodology
 
 - Reconnaissance
 - Technology Fingerprinting
@@ -49,7 +51,7 @@ http://127.0.0.1:9090
 
 ---
 
-# Tools Used
+## Tools Used
 
 - Kali Linux
 - Docker
@@ -65,32 +67,48 @@ http://127.0.0.1:9090
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 - Vulnerability Assessment
 - Penetration Testing
 - Web Application Security
 - Security Enumeration
 - OWASP Testing
-- Security Reporting
 - Risk Assessment
+- Security Reporting
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-```
 dvwa-web-security-assessment/
 
-├── screenshots/
-
-├── findings/
-
-├── report/
-
-└── README.md
+├── README.md
+│
+└── screenshots/
+    ├── reconnaissance/
+    ├── technology-fingerprinting/
+    ├── directory-enumeration/
+    ├── authentication/
+    ├── session-management/
+    ├── sql-injection/
+    ├── xss/
+    ├── csrf/
+    ├── file-upload/
+    ├── security-headers/
+    ├── automated-scan/
+    └── findings/
 ```
 
 ---
 
-More documentation and screenshots will be added progressively.
+## Assessment Summary
+
+The assessment identified multiple web application vulnerabilities across different security categories, including SQL Injection, Cross-Site Scripting (XSS), CSRF, File Upload issues, weak Session Management, Information Disclosure, and Missing Security Headers.
+
+Each testing phase includes supporting screenshots demonstrating the methodology, exploitation process, and observed results.
+
+---
+
+**Author:** Jhanvi Leuva  
+**Role:** Cybersecurity Graduate | Digital Forensics | SOC | VAPT

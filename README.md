@@ -81,6 +81,7 @@ http://127.0.0.1:9090
 
 ## Repository Structure
 
+```text
 dvwa-web-security-assessment/
 
 ├── README.md
